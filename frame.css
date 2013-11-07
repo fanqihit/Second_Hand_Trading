@@ -5,7 +5,7 @@ div#modular1, div#modular2, div#modular3, div#modular4, div#modular5{
 	margin:10px 300px 10px 300px;
 	width:1000px ;
 }
-div#help{
+div#ShouldKnow{
 	float:left;
 	height:50px;
 	width:700px;
@@ -39,7 +39,7 @@ div#release{
 	left:1008px;
 	width:300px;
 	height:100px;
-	background:red;
+	background:white;
 }
 div#goodsnews{
 	position:absolute;
@@ -47,7 +47,7 @@ div#goodsnews{
 	left:308px;
 	width:200px;
 	height:100px;
-	background:blue;
+	background:white;
 }
 div#tag{
 	position:absolute;
@@ -55,7 +55,7 @@ div#tag{
 	left:508px;
 	width:800px;
 	height:100px;
-	background:black;
+	background:white;
 }
 div#newgoods{
 	position:absolute;
