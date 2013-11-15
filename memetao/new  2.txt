@@ -1,0 +1,1 @@
+$sqlstr="insert into regist values ('".$_POST['user_email']."','".$_POST['user_name']."','".$_POST['user_password']."')";

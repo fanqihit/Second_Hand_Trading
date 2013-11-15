@@ -1,0 +1,107 @@
+div{
+	background-color:yellow;
+}
+div#modular1, div#modular2, div#modular3, div#modular4, div#modular5{
+	margin:10px 300px 10px 300px;
+	width:1000px ;
+}
+div#ShouldKnow{
+	float:left;
+	height:50px;
+	width:700px;
+	background:#DCDCDC;
+}
+div#login{
+	float:right;
+	height:50px ;
+	width:300px ;
+	background:#DCDCDC;
+}
+div#memetao{
+	position:absolute;
+	top:70px;
+	left:308px;
+	width:200px;
+	height:100px;
+	background:red;
+}
+div#search{
+	position:absolute;
+	top:70px;
+	left:508px;
+	width:500px;
+	height:100px;
+	background:green;
+}
+div#release{
+	position:absolute;
+	top:70px;
+	left:1008px;
+	width:300px;
+	height:100px;
+	background:white;
+}
+div#goodsnews{
+	position:absolute;
+	top:180px;
+	left:308px;
+	width:200px;
+	height:100px;
+	background:white;
+}
+div#tag{
+	position:absolute;
+	top:180px;
+	left:508px;
+	width:800px;
+	height:100px;
+	background:white;
+}
+div#newgoods{
+	position:absolute;
+	top:290px;
+	left:308px;
+	width:250px;
+	height:600px;
+	background:gray;
+}
+div#discount{
+	position:absolute;
+	top:290px;
+	left:558px;
+	width:250px;
+	height:600px;
+	background:silver;
+}
+div#shopping{
+	position:absolute;
+	top:290px;
+	left:808px;
+	width:250px;
+	height:600px;
+	background:purple;
+}
+div#myneed{
+	position:absolute;
+	top:290px;
+	left:1058px;
+	width:250px;
+	height:600px;
+	background:maroon;
+}
+div#useless{
+   position:absolute;
+   top:900px;
+   left:308px;
+   width:700px;
+   height:50px;
+   background:#DCDCDC;
+}
+div#link{
+	position:absolute;
+	top:900px;
+	left:1008px;
+	width:300px;
+	height:50px;
+	background:#DCDCDC;
+}
