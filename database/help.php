@@ -5,11 +5,7 @@
 </head>
 <body text="green">
 	<div id="HelpFrame">
-<<<<<<< HEAD
-		<img src="picture/background.jpg" align="center" width="1000px" height="1000px" alt="logo加载中"/>
-=======
 		<img src="background.jpg" align="center" width="1000px" height="1000px" alt="logo加载中"/>
->>>>>>> 50111b4870ada1a3fb25f682a2de8e7b00b1bfba
 		<div id="help1">
 		<p align="center"><font size="5">功能清单</font></p>
         <p align="left">

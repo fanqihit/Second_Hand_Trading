@@ -9,13 +9,13 @@ div#ShouldKnow{
 	float:left;
 	height:50px;
 	width:700px;
-	background:#DCDCDC;
+	background:silver;
 }
 div#login{
 	float:right;
 	height:50px ;
 	width:300px ;
-	background:#DCDCDC;
+	background:silver;
 }
 div#memetao{
 	position:absolute;
@@ -79,11 +79,7 @@ div#shopping{
 	left:808px;
 	width:250px;
 	height:600px;
-<<<<<<< HEAD
-	background:gray;
-=======
 	background:purple;
->>>>>>> 50111b4870ada1a3fb25f682a2de8e7b00b1bfba
 }
 div#myneed{
 	position:absolute;
@@ -91,40 +87,13 @@ div#myneed{
 	left:1058px;
 	width:250px;
 	height:600px;
-<<<<<<< HEAD
-	background:silver;
-=======
 	background:maroon;
->>>>>>> 50111b4870ada1a3fb25f682a2de8e7b00b1bfba
-}
-div#useless{
-   position:absolute;
-   top:900px;
-   left:308px;
-   width:700px;
-   height:50px;
-   background:#DCDCDC;
 }
 div#link{
 	position:absolute;
 	top:900px;
-	left:1008px;
-	width:300px;
+	left:308px;
+	width:1000px;
 	height:50px;
-	background:#DCDCDC;
-<<<<<<< HEAD
-}
-div#goods_search_a{
-	position:relative;
-	top:25px;
-	left:69px;
-	background:white;
-}
-div#goods_search_b{
-	position:relative;
-	top:-34px;
-	left:405px;
-	background:white;
-=======
->>>>>>> 50111b4870ada1a3fb25f682a2de8e7b00b1bfba
+	background:teal;
 }

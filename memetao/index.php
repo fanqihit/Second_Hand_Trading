@@ -1,8 +1,11 @@
 <!doctype html>
+<<<<<<< HEAD
 <?php
 include_once("public/sql_connect.php");
 include_once("public/my_msg.php");
 ?>
+=======
+>>>>>>> 50111b4870ada1a3fb25f682a2de8e7b00b1bfba
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html charset=utf-8" />
@@ -149,9 +152,12 @@ a.NeedRelease:hover,a.NeedRelease:active
 background-color:red;
 }
 </style>
+<<<<<<< HEAD
 <style>
 a.moregoods:link {position:absolute;margin-left:80px;margin-top:0px;}
 </style>
+=======
+>>>>>>> 50111b4870ada1a3fb25f682a2de8e7b00b1bfba
 </head>
 <body>
 <div id="modular1">   
@@ -161,12 +167,18 @@ a.moregoods:link {position:absolute;margin-left:80px;margin-top:0px;}
 		<a  class="Help" href="help.php"  target=_blank title="点击获得帮助" align="center">帮助</a>
 	</div>
 	<div id="login">
+<<<<<<< HEAD
 		<a  class="Regist" href="regist/regist.php" target=_blank  title="点击注册账户，注册账户才能使用哦！！" align="center">注册</a>
 		<a  class="Login" href="login/login.php" target=_blank  title="亲，还在等什么，快快登录哦！" align="center">登录</a>
+=======
+		<a  class="Regist" href="regist.php" target=_blank  title="点击注册账户，注册账户才能使用哦！！" align="center">注册</a>
+		<a  class="Login" href="###" target=_blank  title="亲，还在等什么，快快登录哦！" align="center">登录</a>
+>>>>>>> 50111b4870ada1a3fb25f682a2de8e7b00b1bfba
 	</div>	
 </div>
 <div id="modular2">
 	<div id="memetao">
+<<<<<<< HEAD
 		<img src="picture/memetao.jpg" align="center" width="200px" height="100px" alt="logo加载中"/>
 	</div>
 	<div id="search" style="background-image:url('picture/search.jpg');">
@@ -182,10 +194,21 @@ a.moregoods:link {position:absolute;margin-left:80px;margin-top:0px;}
 	<div id="release">
 		<a class="GoodsRelease" href="login/login.php" target=_blank title="物品信息发布模块">物品发布</a>
 		<a class="NeedRelease" href="login/login.php" target=_blank title="需求信息发布模块">需求发布</a>
+=======
+		<img src="memetao.jpg" align="center" width="200px" height="100px" alt="logo加载中"/>
+	</div>
+	<div id="search">
+		<img src="search.jpg" align="center" width="500px" height="100px" alt="搜索输入框加载中"/>
+	</div>
+	<div id="release">
+		<a class="GoodsRelease" href="goodsrelease.php" target=_blank title="物品信息发布模块">物品发布</a>
+		<a class="NeedRelease" href="needrelease.php" target=_blank title="需求信息发布模块">需求发布</a>
+>>>>>>> 50111b4870ada1a3fb25f682a2de8e7b00b1bfba
 	</div>
 </div>
 <div id="modular3">
 	<div id="goodsnews">
+<<<<<<< HEAD
 		<img src="picture/Goods.jpg" align="center" width="200px" height="100px" alt="商品服务列表加载中">
 	</div>
 	<div id="tag">
@@ -197,11 +220,25 @@ a.moregoods:link {position:absolute;margin-left:80px;margin-top:0px;}
 		<a class="Fiction" href="goods_fiction.php" target=_blank title="书籍列表模块">虚拟</a>
 		<a class="Daily" href="goods_daily.php" target=_blank title="书籍列表模块">日用</a>
 		<a class="Others" href="goods_others.php" target=_blank title="其他商品列表模块">其他</a>
+=======
+		<img src="Goods.jpg" align="center" width="200px" height="100px" alt="商品服务列表加载中">
+	</div>
+	<div id="tag">
+		<a class="Book" href="###" target=_blank title="书籍列表模块">书籍</a>
+		<a class="Clothes" href="###" target=_blank title="书籍列表模块">衣服</a>
+		<a class="Decoration" href="###" target=_blank title="书籍列表模块">饰品</a>
+		<a class="Entertainment" href="###" target=_blank title="书籍列表模块">娱乐</a>
+		<a class="Electron" href="###" target=_blank title="书籍列表模块">电子</a>
+		<a class="Fiction" href="###" target=_blank title="书籍列表模块">虚拟</a>
+		<a class="Daily" href="###" target=_blank title="书籍列表模块">日用</a>
+		<a class="Others" href="###" target=_blank title="其他商品列表模块">其他</a>
+>>>>>>> 50111b4870ada1a3fb25f682a2de8e7b00b1bfba
 	</div>
 </div>
 <div id="modular4">
 	<div id="newgoods">
 		<p align="center">今日新品</p>
+<<<<<<< HEAD
 		<?php
 		$sqlstr = "select * from goods";
 		$result = mysql_query($sqlstr,$link);
@@ -224,6 +261,8 @@ a.moregoods:link {position:absolute;margin-left:80px;margin-top:0px;}
 		}			
 		?>
 		<a class="moregoods" href="login/goods_more.php" target=_blank  title="点击查看更多商品">更多商品</a>
+=======
+>>>>>>> 50111b4870ada1a3fb25f682a2de8e7b00b1bfba
 	</div>
 	<div id="discount">
 		<p align="center">聚划算</p>
@@ -233,6 +272,7 @@ a.moregoods:link {position:absolute;margin-left:80px;margin-top:0px;}
 	</div>
 	<div id="myneed">
 		<p align="center">需求空间</p>
+<<<<<<< HEAD
 		<?php
 		$sqlstr = "select * from need";
 		$result = mysql_query($sqlstr,$link);
@@ -255,6 +295,8 @@ a.moregoods:link {position:absolute;margin-left:80px;margin-top:0px;}
 		mysql_close($link);
 		?>
 		<a class="moregoods" href="login/need_more.php" target=_blank  title="点击查看更多商品">更多需求</a>
+=======
+>>>>>>> 50111b4870ada1a3fb25f682a2de8e7b00b1bfba
 	</div>
 </div>
 <div id="modular5">
